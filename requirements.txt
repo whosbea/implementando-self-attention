@@ -1,0 +1,18 @@
+import numpy as np
+
+def scaled_dot_product_attention(Q, K, V):
+    # 1. Produto escalar QK^T
+    scores = np.dot(Q, K.T)
+
+    # 2. Scaling factor
+    dk = K.shape[1]
+    scaled_scores = scores / np.sqrt(dk)
+
+    # 3. Softmax linha por linha
+    exp_scores = np.exp(scaled_scores)
+    attention_weights = exp_scores / np.sum(exp_scores, axis=1, keepdims=True)
+
+    # 4. Multiplicação pelos valores
+    output = np.dot(attention_weights, V)
+
+    return output

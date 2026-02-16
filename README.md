@@ -37,6 +37,7 @@ A divisão por √dk evita que os valores cresçam excessivamente, o que poderia
 ### **Softmax**
 
 Cada linha é normalizada para formar uma distribuição de probabilidade.
+
 $$
 A_{ij} =
 \frac{e^{\hat{S}_{ij}}}
@@ -131,6 +132,7 @@ attention_weights =
 ```
 
 A visualização gráfica pode ser observada em:
+
 ![correlação self-attention weights](img/self-attention_weights.png)
 
 Cada linha representa a distribuição de atenção de um token (Query) em relação aos demais tokens (Keys).

@@ -6,6 +6,7 @@ Este projeto implementa o mecanismo de Scaled Dot-Product Attention, conforme de
 A implementação foi feita utilizando apenas NumPy, sem bibliotecas de alto nível de Deep Learning, conforme exigido no laboratório.
 
 A fórmula implementada é:
+
 $$
 \text{Attention}(Q, K, V) =
 \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V

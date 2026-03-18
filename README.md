@@ -282,3 +282,5 @@ Em modelos Transformer reais, esse deslocamento vetorial é resultado do aprendi
 - Romero, Daniel. *Explicação completa do modelo Transformer com base no paper: Attention Is All You Need*.  
   🎥 https://www.youtube.com/watch?v=aCWm4eMQlQs
 
+## Informações importantes
+Este projeto contou com apoio de IA (ChatGPT 5.4 Thinking) na geração e organização do código. Todo o conteúdo foi revisado, ajustado e estudado por Beatriz Barreto.
